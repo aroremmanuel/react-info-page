@@ -3,22 +3,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <nav className="header">
+            <img src="../logo192.png" className="header-image"></img>
+            <h1 className="header-image-text">ReactFacts</h1>
+            <h1 className="header-title">React Course - Project 1</h1>
+        </nav>
+
+        <main>
+          <h1 className="main-title">Fun facts about React</h1>
+          <ul className="list-of-facts">
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100k stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+          </ul>
+        </main>
+      </div>  
   );
 }
 
